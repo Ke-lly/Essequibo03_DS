@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notícias | Essequibo</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+        <div class="logo-container">
+          <a href="index.html">
+            <img src="images/logo.png" alt="Logo" class="logo">
+          </a>
+        </div>
+
+        <div class="header-btn-group">
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar" data-navbar>
+      <div class="navbar-top">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="Logo da Equipe 03">
+        </a>
+
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">  
+        <li>
+          <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+        </li>
+        <li>
+          <a href="historia.html" class="navbar-link" data-nav-link>História</a>
+        </li>
+
+        <li>
+          <a href="mapa.html" class="navbar-link" data-nav-link>Mapa</a>
+        </li>
+
+        <li>
+          <a href="estatisticas.html" class="navbar-link" data-nav-link>Estatísticas</a>
+        </li>
+
+        <li>
+          <a href="conflitosatuais.html" class="navbar-link" data-nav-link>Conflitos atuais</a>
+        </li>
+
+        <li>
+          <a href="noticias.html" class="navbar-link" data-nav-link>Notícias</a>
+        </li>
+
+        <li>
+          <a href="referencias.html" class="navbar-link" data-nav-link>Referências</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="page-hero" id="home">
+        <div class="container">
+          <h2 class="h1 hero-title">Notícias</h2>
+        </div>
+      </section>
+
+      </div>
+      </section>
+
+
+      <style>
+        .news-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          margin: 20px 0;
+        }
+
+        .news-card {
+          background-color: #ffffff;
+          border-radius: 8px;
+          padding: 15px;
+          margin: 10px;
+          width: calc(30% - 20px);
+          /* Ajuste a largura conforme necessário */
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          transition: transform 0.2s;
+          text-decoration: none;
+          /* Remove o sublinhado do link */
+          color: inherit;
+          /* Herda a cor do texto */
+        }
+
+        .news-card:hover {
+          transform: scale(1.02);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          /* Sombra maior ao passar o mouse */
+        }
+
+        .news-card h3 {
+          color: #2E7D32;
+          margin: 0 0 10px 0;
+        }
+
+        .news-card p {
+          margin: 5px 0;
+        }
+
+        .news-card .date {
+          font-size: 0.9em;
+          color: #777;
+        }
+
+        .news-card img {
+          max-width: 100%;
+          border-radius: 5px;
+        }
+      </style>
+
+      <div class="news-container">
+        <a href="https://www.bbc.com/portuguese/articles/crg3yrndmjro" class="news-card" target="_blank">
+          <h3>Venezuela vai invadir Essequibo? O que acontece agora em território disputado na Guiana</h3>
+          <img src="images/primeiro.png" alt="Descrição da imagem 1">
+          <p>O presidente da Venezuela, Nicolás Maduro, promulgou na quarta-feira (3/04) uma lei aprovada pela
+            Assembleia Nacional do País que, na prática, criou um estado venezuelano em Essequibo.</p>
+          <p class="date">Data de Publicação: 05/04/2024</p>
+        </a>
+
+        <a href="https://www.bbc.com/portuguese/articles/cgxdwe57w1vo" class="news-card" target="_blank">
+          <h3>'Não aceitaremos anexação do nosso território': a resposta da Guiana à lei aprovada pela Venezuela
+            'tomando' a região do Essequibo</h3>
+          <img src="images/segundo.PNG" alt="Descrição da imagem 2">
+          <p>A histórica disputa territorial entre Guiana e Venezuela sobre o Essequibo voltou a esquentar.
+
+            A decisão de Caracas na quarta-feira (3/4) de aprovar uma lei criando um novo Estado nos 160.000 km² que
+            ambos os países consideram seus provocou a revolta de Georgetown.</p>
+          <p class="date">Data de Publicação: 04/04/2024</p>
+        </a>
+
+        <a href="https://g1.globo.com/mundo/noticia/2024/04/04/essequibo-o-que-ha-no-territorio-da-guiana-que-a-venezuela-tenta-anexar-e-como-comecou-a-disputa.ghtml"
+          class="news-card" target="_blank">
+          <h3>Essequibo: o que há no território da Guiana que a Venezuela tenta anexar, e como começou a disputa</h3>
+          <img src="images/terceiro.PNG" alt="Descrição da imagem 3">
+          <p>Equivalente a cerca de 70% do território guianense, local possui reserva vasta de petróleo e é motor para
+            renascimento econômico do país. A disputa tem provocado o aumento de tensões entre os países, que fazem
+            fronteira com o Brasil.</p>
+          <p class="date">Data de Publicação: 04/04/2024</p>
+        </a>
+
+        <a href="https://www.cnnbrasil.com.br/blogs/gustavo-uribe/politica/brasil-teme-escalada-de-maduro-sobre-essequibo/"
+          class="news-card" target="_blank">
+          <h3>Brasil teme escalada de Maduro sobre Essequibo</h3>
+          <img src="images/decimooitavo.jpg" alt="Descrição da imagem 4">
+          <p>O isolamento regional de Nicolás Maduro, após uma vitória eleitoral contestável, tem gerado receio entre
+            diplomatas e militares brasileiros.</p>
+          <p class="date">Data de Publicação: 03/09/2024</p>
+        </a>
+
+        <a href="https://www.brasildefato.com.br/2024/04/08/venezuela-argumenta-sobre-essequibo-no-tribunal-da-onu-e-aumenta-pressao-por-territorio"
+          class="news-card" target="_blank">
+          <h3>Venezuela argumenta sobre Essequibo no Tribunal da ONU e aumenta pressão por território</h3>
+          <img src="images/decimonono.webp" alt="Descrição da imagem 5">
+          <p>Texto defende Acordo de Genebra, assinado em 1966 e que pede uma resolução 'satisfatória para todas as
+            partes'</p>
+          <p class="date">Data de Publicação: 04/04/2024</p>
+        </a>
+
+        <a href="https://jornal.usp.br/atualidades/na-disputa-por-essequibo-brasil-e-o-pais-mais-indicado-para-mediar-acordo-entre-venezuela-e-eua/"
+          class="news-card" target="_blank">
+          <h3>Na disputa por Essequibo, Brasil é o país mais indicado para mediar acordo entre Venezuela e EUA</h3>
+          <img src="images/vigesima.jpg" alt="Descrição da imagem 6">
+          <p>De acordo com Pedro Feliú, os Estados Unidos também esperam esse papel do Brasil na tentativa de resolver
+            esse litígio</p>
+          <p class="date">Data de Publicação: 11/04/2024</p>
+        </a>
+      </div>
+
+
+
+
+
+      <div class="footer-bottom">
+        <div class="container">
+
+          <p class="copyright">
+            &copy; 2024 <a href="">ColégioSesidaIndustria</a>. Equipe03
+          </p>
+
+          <ul class="footer-bottom-list">
+
+            <li>
+              <a href="#" class="footer-bottom-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link">Term & Condition</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link">FAQ</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+
+      </footer>
+
+
+
+
+
+      <!-- 
+    - #GO TO TOP
+  -->
+
+      <a href="#top" class="go-top" data-go-top>
+        <ion-icon name="chevron-up-outline"></ion-icon>
+      </a>
+
+
+
+
+
+      <!-- 
+    - custom js link
+  -->
+      <script src="script.js"></script>
+
+      <!-- 
+    - ionicon link
+  -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
